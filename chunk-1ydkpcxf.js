@@ -16076,7 +16076,7 @@ function App() {
         children: "Hello from React"
       }, undefined, false, undefined, this),
       /* @__PURE__ */ jsx_dev_runtime.jsxDEV("button", {
-        className: "bg-indigo-400 text-white rounded-md p-2",
+        className: "bg-indigo-500 hover:bg-indigo-400 active:bg-indigo-500 cursor-pointer text-white rounded-md p-2",
         onClick: () => setSpin(!spin),
         children: "Toggle Spin"
       }, undefined, false, undefined, this)
