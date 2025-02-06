@@ -9,7 +9,7 @@ function App() {
         Hello from React
       </h1>
       <button
-        className="bg-indigo-400 text-white rounded-md p-2"
+        className="bg-indigo-500 hover:bg-indigo-400 active:bg-indigo-500 cursor-pointer text-white rounded-md p-2"
         onClick={() => setSpin(!spin)}>
           Toggle Spin
       </button>
